@@ -1,12 +1,6 @@
-./test.sh ${1}
-RET = $?
-if [ ${RET} =0 ] ; then
-echo "マージ成功"
-
-else 
-
+./test.sh ${1} ||{
 echo "失敗"
 git merge --abort
-fi
+}
 
 sleep 10
