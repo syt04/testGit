@@ -1,5 +1,6 @@
 ./test.sh ${1}
-if [ $? =0 ] ; then
+RET = $?
+if [ ${RET} =0 ] ; then
 echo "マージ成功"
 
 else 
