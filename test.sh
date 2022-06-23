@@ -1,3 +1,3 @@
-git checkout ${2}
+git checkout ${1}
 
-git merge ${1}
+git merge ${2}
