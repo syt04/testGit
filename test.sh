@@ -7,3 +7,4 @@ git clean -f
 git checkout ${1}
 
 git merge ${2}
+git push origin ${2}
